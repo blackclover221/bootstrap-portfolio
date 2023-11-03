@@ -21,7 +21,7 @@ This is my portfolio using bootstrap
 * adding the links to some of work as for some reason it is now showing the deployed links so I removed them and left them as empty for now 
 
 # Deployed Link :
-
+https://blackclover221.github.io/bootstrap-portfolio/
 
 # Repo Link: 
 https://github.com/blackclover221/bootstrap-portfolio 
