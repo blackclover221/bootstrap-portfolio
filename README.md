@@ -24,8 +24,4 @@ This is my portfolio using bootstrap
 
 
 # Repo Link: 
-<<<<<<< HEAD
 https://github.com/blackclover221/bootstrap-portfolio 
-=======
-https://github.com/blackclover221/bootstrap-portfolio
->>>>>>> 09483d4461da695d6ab87b8cbedb5b7b4d196004
