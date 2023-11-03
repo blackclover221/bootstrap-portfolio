@@ -1,0 +1,173 @@
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ad136d;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 2rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+
+.hero-banner {
+  background-image: url('../images/02-portfolio-1.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 4rem 0;
+  color: #fff;
+}
+
+.hero-banner h2 {
+  font-size: 2.5rem;
+}
+
+.page-section {
+  padding: 2rem;
+  background-color: #fff;
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.page-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.page-section p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.page-section#about::before {
+  color: #ad136d;
+  font-weight: bold;
+  margin-right: 1rem;
+  display: block;
+  height: 100%;
+}
+
+.page-section#about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.page-section#about .about-header {
+  flex: none;
+}
+
+.page-section#about .about-header h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.page-section#about .about-content {
+  flex: 1;
+  padding-left: 2rem;
+}
+
+.page-section#about .about-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.page-section#about:hover {
+  background-color: #ad136d;
+  color: #fff;
+  cursor: pointer;
+}
+
+#work h3 {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  color: #333
+}
+
+#work h3:hover {
+  color: #333;
+}
+
+
+#work span {
+  font-size: 1rem;
+  color: #555;
+}
+
+.project-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px;
+}
+
+.project-item {
+  text-align: center;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project-item h3 {
+  margin-top: 10px;
+}
+
+
+.contact address a {
+  display: block;
+  margin: 0.5rem 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.page-wrapper {
+  padding: 2rem;
+}
+
+.page-section:hover {
+  background-color: #ad136d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.page-section:hover h2 {
+  color: #fff;
+}
