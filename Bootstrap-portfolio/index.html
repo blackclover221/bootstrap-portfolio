@@ -5,87 +5,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Yasmin Ismail basic portfolio</title>
+    <title>Yasmin Portfolio</title>
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Add Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 
 <body>
-    <!-- main logo / nav -->
-    <header>
-        <h1> Yasmin Ismail </h1>
-        <nav>
-            <a href="#">About me</a>
-            <a href="#"> Work</a>
-            <a href="#"> Contact Me</a>
-        </nav>
-    </header>
-
-    <!-- hero banner -->
-    <section class="hero-banner">
-        <div>
-            <h2>Welcome to my portfolio</h2>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-pink navbar-top" style="background-color: pink;">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="jumbotron text-center" style="background-color: pink;">
+        <img src="./images/sailor moon.gif" alt="sailor moon gif" class="img-fluid">
+        <h1 class="display-4">Yasmin Ismail</h1>
+        <p class="lead"> The start of a beautiful transition from Law to Tech</p>
+    </section>
+
     </section>
 
     <main class="page-wrapper">
-        <!-- about me -->
+        <!-- About Me section -->
         <section class="page-section" id="about">
             <h2>About Me</h2>
-            <div>
-                <p>Dedicated and results-driven professional with a background in law as a paralegal, now embarking on
-                    an
-                    exciting journey into the tech industry as a Web Developer. I have successfully completed a rigorous
-                    Frontend
-                    Web Development bootcamp, equipping me with a solid foundation in HTML, CSS, Bootstrap, JavaScript,
-                    APIs,
-                    Node.js, and React. My experience in law has honed my analytical and problem-solving abilities,
-                    which I now
-                    leverage to create innovative and user-friendly web solutions.
+            <p>Dedicated and results-driven professional with a background in law as a paralegal, now embarking on an
+                exciting journey into the tech industry as a Web Developer. I have successfully completed a rigorous
+                Frontend
+                Web Development bootcamp, equipping me with a solid foundation in HTML, CSS, Bootstrap, JavaScript,
+                APIs,
+                Node.js, and React. My experience in law has honed my analytical and problem-solving abilities, which I
+                now
+                leverage to create innovative and user-friendly web solutions.
 
-                <P>I have developed a diverse portfolio of projects showcasing my skills in web development, including
-                    responsive
-                    and visually appealing websites and interactive web applications. I am passionate about staying
-                    current with
-                    industry trends and best practices, demonstrating a strong commitment to ongoing learning and skill
-                    enhancement.</P>
+            <P>I have developed a diverse portfolio of projects showcasing my skills in web development, including
+                responsive
+                and visually appealing websites and interactive web applications. I am passionate about staying current
+                with
+                industry trends and best practices, demonstrating a strong commitment to ongoing learning and skill
+                enhancement.</P>
 
-                <P>My transition from law to technology is underpinned by my eagerness to embrace new challenges and
-                    continuously
-                    expand my knowledge. I am excited to bring my analytical mindset, attention to detail, and strong
-                    work ethic
-                    to a web development role, where I can contribute to dynamic projects and grow within the
-                    ever-evolving field
-                    of technology.</P>
+            <P>My transition from law to technology is underpinned by my eagerness to embrace new challenges and
+                continuously
+                expand my knowledge. I am excited to bring my analytical mindset, attention to detail, and strong work
+                ethic
+                to a web development role, where I can contribute to dynamic projects and grow within the ever-evolving
+                field
+                of technology.</P>
 
-                <P> If you are seeking a motivated and adaptable web developer with a unique background and a genuine
-                    passion
-                    for
-                    coding, I am eager to bring my skills and dedication to your team..</p>
-            </div>
+            <P> If you are seeking a motivated and adaptable web developer with a unique background and a genuine
+                passion
+                for
+                coding, I am eager to bring my skills and dedication to your team.
         </section>
 
-        <!-- portfolio container -->
-        <section class="page-section" id="work">
-            <h2>Work</h2>
+        <!-- Work section with Bootstrap cards -->
+        <section class="page-section" id="projects">
+            <h2>projects</h2>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
                             <img src="./images/02-portfolio-3.jpg" alt="02-portfolio-3" class="card-img-top">
                             <div class="card-body">
-                                <h5 class="card-title">Refactoring Magic</h5>
-                                <p class="card-text">HTML, CSS</p>
+                                <h5 class="card-title">Refactoring Magic </h5>
+                                <p class="card-text">Refactored a company's exisitng code to meet accessibility criteria
+                                    to help the SEO</p>
+                                <a href="#" class="btn btn-primary">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card">
+
                             <img src="./images/02-portfolio-2.jpg" alt="02-portfolio-2" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Password Generator</h5>
-                                <p class="card-text">HTML, CSS, JS</p>
+                                <p class="card-text">Built a password generator using javascript. The password generator
+                                    follows the standard password guidelines</p>
+                                <a href="#" class="btn btn-primary">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -94,7 +110,10 @@
                             <img src="./images/02-run-buddy.jpg" alt="02-run-buddy" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Healthy Habit Tracker</h5>
-                                <p class="card-text">JavaScript</p>
+                                <p class="card-text">built a healthy habit tracker to help people stick to their new
+                                    year resolution in keeping fit and healthy. I am currently working on the backend of
+                                    this app to help it sync with apple watch and Fitbit</p>
+                                <a href="#" class="btn btn-primary">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -102,20 +121,30 @@
             </div>
         </section>
 
-        <!-- contact -->
-        <section class="page-section contact" id="contact">
+        <!-- Skills section -->
+        <section class="page-section" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Javascript</li>
+            </ul>
+        </section>
+
+        <!-- Contact Me section -->
+        <section class="page-section" id="contact">
             <h2>Contact Me</h2>
-            <div>
-                <address>
-                    <a href="mailto:yasminismail33@gmail.com">yasminismail33@gmail.com</a>
-                    <a href="#">GitHub</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">LinkedIn</a>
-                </address>
-            </div>
+            <address>
+                <a href="mailto:your-email@example.com">yasminismail33@gmail.com</a>
+                <a href="#">GitHub</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </address>
         </section>
     </main>
 
+    <!-- Add Bootstrap JS and jQuery (for Bootstrap functionality) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>

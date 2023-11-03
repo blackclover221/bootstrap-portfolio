@@ -8,52 +8,12 @@ p {
   font-family: Arial, sans-serif;
 }
 
-body {
-  background-color: #f0f0f0;
-  color: #333;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ad136d;
-  color: #fff;
-  text-align: center;
-  padding: 1rem 2rem;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-header h1 {
-  font-size: 2rem;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 1rem;
-}
-
-
-.hero-banner {
-  background-image: url('../images/02-portfolio-1.jpg');
-  background-size: cover;
-  text-align: center;
-  padding: 4rem 0;
-  color: #fff;
-}
-
-.hero-banner h2 {
-  font-size: 2.5rem;
-}
-
-.page-section {
-  padding: 2rem;
-  background-color: #fff;
-  margin: 2rem 0;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s, color 0.3s;
+.jumbotron-image {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  display: block;
+  margin: 0 auto;
 }
 
 .page-section h2 {
@@ -67,8 +27,7 @@ nav a {
 }
 
 .page-section#about::before {
-  color: #ad136d;
-  font-weight: bold;
+  color: pink font-weight: bold;
   margin-right: 1rem;
   display: block;
   height: 100%;
@@ -106,23 +65,23 @@ nav a {
 }
 
 .page-section#about:hover {
-  background-color: #ad136d;
-  color: #fff;
+  background-color: pink;
+  color: #333;
   cursor: pointer;
 }
 
-#work h3 {
+#Projects h3 {
   font-size: 1.25rem;
   margin-top: 1rem;
   color: #333
 }
 
-#work h3:hover {
+#Projects h3:hover {
   color: #333;
 }
 
 
-#work span {
+#Projects span {
   font-size: 1rem;
   color: #555;
 }
@@ -136,7 +95,7 @@ nav a {
 .project-item {
   text-align: center;
   padding: 1rem;
-  background-color: #fff;
+  background-color: black;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 10px;
@@ -163,11 +122,57 @@ nav a {
 }
 
 .page-section:hover {
-  background-color: #ad136d;
-  color: #fff;
+  background-color: pink;
+  color: #333;
   cursor: pointer;
 }
 
 .page-section:hover h2 {
-  color: #fff;
+  color: #333;
+}
+
+.contact-icons {
+  font-size: 24px;
+}
+
+.contact-icons a {
+  color: #333;
+  margin-right: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  background-color: pink;
+  border-radius: 0;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.card-link {
+  color: purple;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
 }
